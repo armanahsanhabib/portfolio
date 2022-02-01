@@ -1,0 +1,152 @@
+@media only screen and (max-width: 991px) {
+
+    .header_section .toggle_menu {
+        display: block;
+    }
+
+    .header_section .navigation_menu_area {
+        display: none;
+        position: absolute;
+        top: 75px;
+        left: 0;
+    }
+
+    .header_section .navigation_menu_area.active {
+        display: block;
+    }
+
+    .header_section .navigation_menu_area {
+        /*        display: none; */
+        position: absolute;
+        top: 75px;
+        left: 0;
+        width: 100%;
+        height: calc(100vh - 75px);
+        background-color: #5B5C64;
+        z-index: 1;
+    }
+
+    .header_section .navigation_menu_area nav ul li {
+        display: block;
+        margin: 0;
+        border-bottom: 1px solid #454545;
+    }
+
+    .header_section .navigation_menu_area nav ul li a {
+        color: #fff;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .header_section .navigation_menu_area nav ul li a::after {
+        display: none;
+    }
+
+    .header_section .navigation_menu_area nav ul li a:hover {
+        color: #fff;
+    }
+
+    .header_section .navigation_menu_area nav ul li:hover {
+        background-color: #FC5F45;
+    }
+
+    .slider_container {
+        z-index: -1;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .slider_section .inside_box .feature_container .box img {
+        width: 35px;
+        margin-bottom: 10px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+    .about_section .image_container img {
+        width: 450px;
+    }
+
+    .about_section .text_box {
+        width: 66%;
+        top: 162px;
+        padding: 40px;
+    }
+
+    .my_skills_section .box_container {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 50px;
+    }
+
+    .portfolio_section .box_container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .stats_section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 50px;
+        grid-row-gap: 100px;
+    }
+
+    .stats_section .box {
+        width: 100%;
+    }
+
+    .pricing_section .box_container {
+        grid-template-columns: 1fr;
+    }
+
+    .pricing_section .box_container .box {
+        width: 50%;
+        margin: 0 auto;
+
+    }
+
+    .contact_section .message_container .row {
+        grid-template-columns: 1fr;
+    }
+
+    .work_steps_section .image_container .text_box:nth-child(odd) {
+        background-color: #ffffff;
+        padding: 30px;
+        box-shadow: -1px -1px 5px rgba(0, 0, 0, 0.1);
+        position: absolute;
+        height: 300px;
+        width: 460px;
+        left: 0;
+    }
+
+    .work_steps_section .image_container .text_box:nth-child(even) {
+        background-color: #ffffff;
+        padding: 30px;
+        box-shadow: 1px -1px 5px rgba(0, 0, 0, 0.1);
+        position: absolute;
+        height: 300px;
+        width: 460px;
+        right: 0;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: green;
+    }
+}
