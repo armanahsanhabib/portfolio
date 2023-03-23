@@ -1,2 +1,1 @@
-# portfolio
-Ahsan Habib :: MERN Stack Developer
+Live preview at: https://armanahsanhabib.github.io/portfolio/
